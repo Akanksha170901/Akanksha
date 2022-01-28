@@ -1,0 +1,22 @@
+Method Hiding- 
+class p                     class c extends p
+{static void m()            {void m()
+{                           {
+}                           }
+}                           }
+
+EXCEPTION HANDLING = 
+     Exception are caused by program and they are recoverable
+     Errors are not caused by program and they are non recoverable
+1)Exception handling is done in java programing for the graceful termination of the program
+2)Exception is an unwanted event that may occur at run time and it may cause the prgram to terinate
+abnormally.
+3)In order to avoid such situation java supports exception handling.
+
+Types= checked
+       unchecked
+Keywords =   TRY
+             CATCH
+             THROW
+             FINALLY
+             THROWS
